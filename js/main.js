@@ -29,8 +29,7 @@ async function handleSendMail(event) {
   };
 
   const response = await fetch(
-    "https://password-reset-guvi-zen.herokuapp.com/api/contactMail",
-    // "http://localhost:4044/api/contactMail",
+    "https://app-password-reset-flow.herokuapp.com/contactMe",
     {
       method: "POST",
       headers: {
